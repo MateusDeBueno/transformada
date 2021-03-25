@@ -6,6 +6,8 @@
  */
 
 uint32_t count = 0;
+double Va = 0;
+
 __interrupt void isr_cpu_timer0(void);
 
 int main(void)
